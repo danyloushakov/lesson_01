@@ -23,11 +23,12 @@ alert ("мені " + age + " років");
 // альтернатива в один рядок
 alert ("Мене звати " + userName + " мені " + age + " років") */
 
+const age = prompt("скільки вам років?")
+const name = prompt("як вас звуть?")
 
-/* const age = "38";
-const userName = "Danylo";
-
-let = prompt("мене звати " + userName + " мені " + age + " років"); */
+console.log(age);
+console.log(name);
+console.log(`мене звати ${name} мені ${age} років`);
 
 let number1 = +prompt ("Nubber1");
 let number2 = +prompt ("Nubber2");
