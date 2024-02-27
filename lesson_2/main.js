@@ -52,18 +52,20 @@ console.log(10 % 4) */
 або false якщо менше ніж 18.
 Оператор більше або дорівнює виглядає так >= */
 
-let age = prompt( 2+2 "скільки вам років?");
+/* let age = prompt( 2+2 "скільки вам років?");
 console.log(age);
 if(age >= 18 ){
  console.log(true);
 } else {
  console.log(false);
-}
+} */
 
 // Задача 5
-/* 
-let x = +prompt("кордината x..."); 
-let y = +prompt("кордината y...");
 
-console.log(x);
-console.log(y); */
+let x = +prompt("кордината x..2"); 
+let y = +prompt("кордината y..5");
+y = y-x;
+x = y+x;
+y = x-y;
+console.log("x-", x);
+console.log("y-", y);
