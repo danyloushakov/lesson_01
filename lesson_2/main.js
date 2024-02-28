@@ -1,15 +1,15 @@
 // Задача 1:
 
-/* console.log ("Hello world");
+console.log ("Hello world");
 
 let num1 =prompt("перше число");
 let num2 =prompt("друге число");
 
 let rem =num1 % num2;
-let pow = (num1, num2);
+let pow = num1 **num2;
 
 console.log(rem);
-console.log(pow); */
+console.log(pow);
 
 // Задача 2:
 
