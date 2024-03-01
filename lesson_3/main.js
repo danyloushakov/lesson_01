@@ -60,12 +60,13 @@ if (user % 2 === 0) {
 
 // Задача 6
 
-let user = prompt("Введіть номер місяця, а ми назвемо його назву");
+/* let user = prompt("Введіть номер місяця, а ми назвемо його назву");
 let winter1 = 12; let winter2 = 1; let winter3 = 2; let spring1 = 3;
 let spring2 = 4; let spring3 = 5; let summer1 = 6; let summer2 = 7;
 let summer3 = 8; let autumn1 = 9; let autumn2 = 10; let autumn3 = 11;
 
-let wrongNum = ("некоректний номер місяця");
+let wrongNum = user > 12;
+
 
 if(user == 12) {
     console.log("winter");
@@ -93,6 +94,51 @@ if(user == 12) {
     console.log("Autumn");
 }
 
-else {
-    console.log(wrongNum);
+else  user == wrongNum; {
+    console.log("не коректний номер місяця");
+} */
+
+// Задача 7
+
+/* let num = prompt("введіть число від 20 до 80")
+
+if (num >= 20 && num <= 80) {
+    console.log(num +  " Число в діапазоні");   
+  } else {
+    console.log("8===3");
+  } */
+
+// Задача 8
+
+/* let num = prompt('введіть число від 20 до 80');
+ 
+if (!(num < 20 || num > 80)) {
+  console.log(num + ' Число в діапазоні');
+} else {
+  console.log('8===3');
+} */
+
+// Задача 9
+
+/* let someOne = prompt("who's there?");
+let admin;
+let other;
+let passAdmin
+if(admin = confirm) {
+    window.alert("!password!");
+    passAdmin = prompt("enter password");
+} if (admin == passAdmin) {
+    window.alert("password?");
+} if (passAdmin) {
+    alert("TheMaster " + " Master");
 }
+ */
+/* let other;
+
+let theMaster;
+
+if (someOne = admin = password); {
+
+} */
+
+alert("АЛЬФАЧІ ГАЙДА КУРИТИ!");
