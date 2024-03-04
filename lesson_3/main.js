@@ -60,7 +60,7 @@ if (user % 2 === 0) {
 
 // Задача 6
 
-/* let user = prompt("Введіть номер місяця, а ми назвемо його назву");
+/* let user = prompt("Введіть номер місяця, а ми назвемо пору року");
 let winter1 = 12; let winter2 = 1; let winter3 = 2; let spring1 = 3;
 let spring2 = 4; let spring3 = 5; let summer1 = 6; let summer2 = 7;
 let summer3 = 8; let autumn1 = 9; let autumn2 = 10; let autumn3 = 11;
@@ -109,8 +109,8 @@ if (num >= 20 && num <= 80) {
   } */
 
 // Задача 8
-
-/* let num = prompt('введіть число від 20 до 80');
+/* 
+let num = prompt('введіть число від 20 до 80');
  
 if (!(num < 20 || num > 80)) {
   console.log(num + ' Число в діапазоні');
@@ -120,25 +120,22 @@ if (!(num < 20 || num > 80)) {
 
 // Задача 9
 
-/* let someOne = prompt("who's there?");
-let admin;
-let other;
-let passAdmin
-if(admin = confirm) {
-    window.alert("!password!");
-    passAdmin = prompt("enter password");
-} if (admin == passAdmin) {
-    window.alert("password?");
-} if (passAdmin) {
-    alert("TheMaster " + " Master");
+const nPass = "TheMaster";
+const nLogin = "Admin";
+const login = prompt("WHO'S THERE?");
+
+if (login === nLogin) {
+  const pass = prompt("Enter password");
+  
+  if (pass === nPass) {
+    alert("Welcome!");
+  } else if (pass === null) {
+    alert("Canceled");
+  } else {
+    alert("Wrong password");
+  }
+} else if (login === null) {
+  alert("Canceled");
+} else {
+  alert("I don't know you");
 }
- */
-/* let other;
-
-let theMaster;
-
-if (someOne = admin = password); {
-
-} */
-
-alert("АЛЬФАЧІ ГАЙДА КУРИТИ!");
