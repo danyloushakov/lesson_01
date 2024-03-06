@@ -137,5 +137,5 @@ if (login === nLogin) {
 } else if (login === null) {
   alert("Canceled");
 } else {
-  alert("I don't know you");
+  alert("I don't know you  ╮( ˘ ､ ˘ )╭");
 }
